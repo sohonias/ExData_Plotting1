@@ -33,7 +33,7 @@ with(DF4, lines(DF4$Date, DF4$Sub_metering_3,
                 ylim=c(0,40), xlab="", col="blue"))
 
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
-       col=c("black", "red", "blue"), lty=1, border="")
+       col=c("black", "red", "blue"), lty=1, border="", bty="n")
 
 #Plot 4 bottom right
 with(DF4, plot(DF4$Date, DF4$Global_reactive_power, ylim=c(0.0,0.5), 
